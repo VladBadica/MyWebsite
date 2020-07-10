@@ -7,3 +7,7 @@
 .row{    
     padding: 60px;
 }
+.carousel-inner {
+    width:800px;
+    height:640px;
+  }
