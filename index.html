@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -16,18 +16,42 @@
     <body>
 
         <div class="header">
-            <p> this is the header</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Hey, I'm</h2>
+                </div>
+                <div class="col-md-12">
+                    <h1>Vlad Badica</h2>
+                </div>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-8">
-                <h2> Welcome!</h2>
-            </div>
             <div class="col-md-4">
-                <h2> Vlad Badica</h2>
+                <h3> Project Snapshots</h3>
+            </div>
+            
+            <div class="col-md-8">
+                <img class="mySlides" src="resources/defendIt1.png">
+                <img class="mySlides" src="resources/defendIt2.png">
+                <button type="button" class="btn btn-secondary" onclick="plusDivs(-1)">&#10094;</button>
+                <button type="button" class="btn btn-secondary" onclick="plusDivs(+1)">&#10095;</button>
             </div>
         </div>
 
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Hey, I'm</h2>
+                </div>
+                <div class="col-md-12">
+                    <h1>Vlad Badica</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/scripts.js"></script>
         <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
