@@ -20,9 +20,14 @@ p {
 }
 .header, .footer{
     text-align: center;
-    background: #737373;
+    background: #4863A0;
     color: white;
     font-size: 40px;
+}
+.greyed{    
+    text-align: center;
+    background: #4863A0;
+    color: white;
 }
 .row{        
     text-align: center;
