@@ -5,12 +5,12 @@ h1, h3, p{
 }
 h1 { 
     font-weight: 700; 
-    line-height: 26.4px; 
+    line-height: 30px; 
     padding: 5px;
 } 
 h3 {
     font-weight: 700; 
-    line-height: 15.4px; 
+    line-height: 30px; 
     padding: 5px;
 }
 p { 
