@@ -42,16 +42,15 @@
                 <div class="col-md-8">
                     <div class="rowImg">
                         <div class="column">
-                            <img src="resources/cubezone.jpg">
-                            <img src="resources/defendIt1.jpg">
-                          </div>
-                          
-                          <div class="column">
-                            <img src="resources/defendIt2.jpg">
-                          </div>
-                          <div class="column">                              
-                            <img src="resources/morseCode.jpg">
-                          </div>
+                            <a href="#cubezone"><img src="resources/cubezone.jpg" title="Cubezone"></a>
+                            <a href="#defendIt"><img src="resources/defendIt1.jpg" title="Defend It"></a>
+                        </div>
+                        <div class="column">      
+                            <a href="#morseCode"><img src="resources/morseCode.jpg" title="Morse Code"></a>                        
+                        </div>
+                        <div class="column">
+                            <a href="#defendIt"><img src="resources/defendIt2.jpg" title="Defend It"></a>
+                        </div>                          
                     </div>
                 </div>   
             </div>
@@ -59,28 +58,52 @@
 
         <div class="colour1">
             <div id="defendIt" class="row">          
-                <div class="col-md-12">                
+                <div class="col-md-8">                
                     <h3>Defend It</h3>
-                    <p>A simple game in C#</p>                
+                    <p>A simple game developed in C# where you take control of a frog and battle against all the upcoming flies.</p>                
+                    <p>Uses an object oriented approach and was one of the first projects that I started learning C# programming with.</p>
+                    <p>Took a long time to create since I decided to write everything for the game including the game engine, the physics,
+                        and changing the game states(main menu, shop and actual game).</p>
+                </div>
+                <div class="col-md-4">
+                    <img id="displayImg" src="resources/defendIt2.jpg" alt="Gameplay image">
+                    <a href=""><p>Check it out here!</p></a>
                 </div>
             </div>
         </div>
 
         <div class="colour2">
             <div id="cubezone" class="row">          
-                <div class="col-md-12">                
+                <div class="col-md-8">                
                     <h3>Cubezone</h3>
-                    <p>A simple game unity</p>                
+                    <p>A simple game developed in Unity where you try and reach the highest score by avoiding obstacles.</p>                
+                    <p>A very fun project that I decided to do, where I had the freedom to experiment with using Unity for game development.</p>
+                    <p>The game's concept is an endless runner, where you take control of a cube and have to dodge all the incoming obstacles.
+                        The longer you survive the higher your score gets! The game has some pretty cool sound effects and uses the in-built unity 
+                        physics for some realistic crashes.</p>
+                </div>
+                <div class="col-md-4">
+                    <img id="displayImg" src="resources/cubezone.jpg" alt="Gameplay image">
+                    <a href="" style="color:darkblue"><p>Check it out here!</p></a>
                 </div>
             </div>
-        </div>
-        
+        </div>        
 
         <div class="colour1">
             <div id="morseCode" class="row">          
-                <div class="col-md-12">                
+                <div class="col-md-8">                
                     <h3>Morse Code encoder and decoder</h3>
-                    <p>A project developed in a team.</p>                
+                    <p>A very interesting project developed while in first year in university with a group of students.</p>                
+                    <p>The purpose of the project was tu use an Arduino board to create a morse code encoder and decoder.</p>
+                    <p>First part of the project was creating a decoder that would take as input our button presses and interpret that as a morse code input, 
+                        translating it into a character and showing it onto a 7 segment led display.</p>
+                    <p> Second part of the project was the encoder, that would have a predefined string (ex: "Hello") and 
+                        translate each character into morse code, sending the data to the decoder. The arduino board had a LED light that would show each dot or 
+                        line in the morse code. Then the decoder would display it as above.</p>
+                </div>
+                <div class="col-md-4">
+                    <img id="displayImg" src="resources/morseCode.jpg" alt="Image of the arduino board in use">
+                    <a href=""><p>Check it out here!</p></a>
                 </div>
             </div>
         </div>
@@ -90,14 +113,20 @@
                 <div class="col-md-12">
                     <h3>Thank you for visiting!</h3>
                 </div>
-                <a href="https://github.com/vb00232">
-                    <img id="fbIcon" src="resources/githubIcon.png" alt="Follow me on GitHub">
-                </a>
-                
+            </div>
+
+            <div class = "row">
+                <div class="col-md-2">
+                    <p>Follow me:</p>                
+                    <a href="https://github.com/vb00232">
+                        <img id="Icon" src="resources/githubIcon.png" alt="Follow me on GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/vlad-badica-653b42180/">
+                        <img id="Icon" src="resources/linkedinIcon.png" alt="Follow me on LinkedIn">
+                    </a>
+                </div>   
             </div>
         </div>
-
-
         
         <script src="js/scripts.js"></script>
         <!-- Bootstrap JS -->

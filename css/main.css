@@ -15,14 +15,19 @@ h3 {
 }
 p { 
   font-weight: 400; 
-  line-height: 20px; 
+  line-height: 28px; 
   padding: 5px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 .header, .footer{
   text-align: center;
   background: #282828;
   color: white;
   font-size: 40px;
+}
+.footer > p{
+  font-size: 12px;
 }
 .colour1{    
   text-align: center;
@@ -31,6 +36,9 @@ p {
 }
 .colour2, .list-group-item{
   background: #c5c6c7
+}
+.list-group.list-group-flush{
+  font-size: 22px;
 }
 .row{        
   text-align: center;
@@ -88,9 +96,10 @@ p {
   background-color: #c5c6c7;
 }
 
-#fbIcon{
-  width: 32px;
-  height: auto;
+#Icon{
+  vertical-align: top;
   display: inline;
-  margin-right: 20px;
+}
+#displayImg{
+  max-width: 100%;
 }
