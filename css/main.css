@@ -42,7 +42,8 @@ p {
 }
 .row{        
   text-align: center;
-   padding: 50px;
+  margin-right: 0px;
+  padding: 50px;
 }
 
 .rowImg {
