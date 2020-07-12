@@ -87,3 +87,10 @@ p {
 #myBtn:hover {
   background-color: #c5c6c7;
 }
+
+#fbIcon{
+  width: 32px;
+  height: auto;
+  display: inline;
+  margin-right: 20px;
+}
