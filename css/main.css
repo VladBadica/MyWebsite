@@ -99,6 +99,7 @@ p {
 #Icon{
   vertical-align: top;
   display: inline;
+  padding-right: 10px;
 }
 #displayImg{
   max-width: 100%;

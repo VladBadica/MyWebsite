@@ -15,7 +15,38 @@
 
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="resources\upArrow.png"></button>
+        
+        <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark bg-primary" >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#defendIt">Defend It</a>                        
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#cubezone">Cubezone</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#morseCode">Morse code</a>
+                          </div>
+                    </li>
+                </ul>
+                <a href="https://github.com/vb00232">
+                    <img id="Icon" src="resources/githubIcon.png" alt="Follow me on GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/vlad-badica-653b42180/">
+                    <img id="Icon" src="resources/linkedinIcon.png" alt="Follow me on LinkedIn">
+                </a>
+
+            </div>
+        </nav>
+
         <div class="header">
+            
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="display-6">Hey, I'm</h3>
@@ -26,7 +57,7 @@
             </div>
         </div>
 
-        <div class="colour2">
+        <div id="projects" class="colour2" >
             <div class="row">     
                 <div class="col-md-3">                
                     <h3>Project Snapshots</h3>
@@ -54,8 +85,7 @@
                     </div>
                 </div>   
             </div>
-        </div>
-
+        </div>  
         <div class="colour1">
             <div id="defendIt" class="row">          
                 <div class="col-md-8">                
