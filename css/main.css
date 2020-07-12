@@ -88,9 +88,7 @@ p {
   background-color: #c5c6c7;
 }
 
-#fbIcon{
-  width: 32px;
-  height: auto;
+#githubIcon{
   display: inline;
   margin-right: 20px;
 }
