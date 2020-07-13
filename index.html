@@ -26,6 +26,9 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" role="button" href="#aboutMe">About me</a>
+                    </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Projects
@@ -37,6 +40,17 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#morseCode">Morse code</a>
                           </div>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Downloads
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="downloads/Defend It.rar">Defend It</a>                        
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="downloads/Cubezone.rar">Cubezone</a>
+                        </div>
                     </li>
                 </ul>
                 <a href="https://github.com/vb00232">
@@ -61,100 +75,127 @@
             </div>
         </div>
 
-        <div id="projects" class="colour2" >
-            <div class="row">     
-                <div class="col-md-3">                
-                    <h3>Project Snapshots</h3>
-                    <p>Check out the photos taken from some of the projects I have worked on!</p>
-                    <div class="list-group list-group-flush">
-                        <a href="#defendIt" class="list-group-item list-group-item-action"><strong>Defend It</strong></a>
-                        <a href="#cubezone" class="list-group-item list-group-item-action"><strong>Cubezone</strong></a>
-                        <a href="#morseCode" class="list-group-item list-group-item-action"><strong>Morse code encoder and decoder</strong></a>
-                      </div>
-                </div>       
-                <div class="col-md-1">
-                </div>     
-                <div class="col-md-8">
-                    <div class="rowImg">
-                        <div class="column">
-                            <a href="#cubezone"><img src="resources/cubezone.jpg" title="Cubezone"></a>
-                            <a href="#defendIt"><img src="resources/defendIt1.jpg" title="Defend It"></a>
-                        </div>
-                        <div class="column">      
-                            <a href="#morseCode"><img src="resources/morseCode.jpg" title="Morse Code"></a>                        
-                        </div>
-                        <div class="column">
-                            <a href="#defendIt"><img src="resources/defendIt2.jpg" title="Defend It"></a>
-                        </div>                          
-                    </div>
-                </div>   
+        <div id="aboutMe" class="row colour2">
+            <div class="col-md-12">
+                <h3>About me</h3>                
             </div>
+        </div>
+
+        <div class="row colour2">
+            <div class="col-sm-4">
+                <div class="card text-center text-white bg-primary mb-3">                    
+                    <img src="resources/diploma.jpg" class="card-img-top" alt="Diploma of the bronze medal" >
+                    <div class="card-body">
+                        <h3 class="card-title">Bronze Medalist</h3>
+                        <p class="card-text">I got the bronze medal in 2018 in a national C# contest in Romania.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card text-center text-white bg-primary mb-3">
+                    <img src="resources/firstAid.jpg" class="card-img-top" alt="University of Surrey's St Johns Unit" >
+                    <div class="card-body">
+                      <h3 class="card-title">First Aid & St John Amublance</h3>
+                      <p class="card-text">A big interest of mine is first aid. Over the past years I have gotten involved with First Aid Society at University
+                           and volunteering with St John Ambulance. Both experiences are fantastic and I would reccommend everyone to learn a bit of first aid!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-center text-white bg-primary mb-3">
+                    <img src="resources/snowboard.jpg" class="card-img-top" alt="Snowboarding" >
+                    <div class="card-body">
+                      <h3 class="card-title">Snowboarding</h3>
+                      <p class="card-text">One of my favourite ways of relaxing is a trip to the mountains! I am always up for a snowboarding weekend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="colour1 row">
+            <div class="col-md-3">                
+                <h3>Project Snapshots</h3>
+                <p>Check out the photos taken from some of the projects I have worked on!</p>
+                <div class="list-group list-group-flush">
+                    <a href="#defendIt" class="list-group-item list-group-item-action colour1"><strong>Defend It</strong></a>
+                    <a href="#cubezone" class="list-group-item list-group-item-action colour1"><strong>Cubezone</strong></a>
+                    <a href="#morseCode" class="list-group-item list-group-item-action colour1"><strong>Morse code encoder and decoder</strong></a>
+                  </div>
+            </div>       
+            <div class="col-md-1">
+            </div>     
+            <div class="col-md-8 rowImg">
+                <div class="column">
+                    <a href="#cubezone"><img src="resources/cubezone.jpg" title="Cubezone"></a>
+                    <a href="#defendIt"><img src="resources/defendIt1.jpg" title="Defend It"></a>
+                </div>
+                <div class="column">      
+                    <a href="#morseCode"><img src="resources/morseCode.jpg" title="Morse Code"></a>                        
+                </div>
+                <div class="column">
+                    <a href="#defendIt"><img src="resources/defendIt2.jpg" title="Defend It"></a>
+                </div>   
+            </div>   
         </div>  
-        <div class="colour1">
-            <div id="defendIt" class="row">          
-                <div class="col-md-8">                
-                    <h3>Defend It</h3>
-                    <p>A simple game developed in C# where you take control of a frog and battle against all the upcoming flies.</p>                
-                    <p>Uses an object oriented approach and was one of the first projects that I started learning C# programming with.</p>
-                    <p>Took a long time to create since I decided to write everything for the game including the game engine, the physics,
-                        and changing the game states(main menu, shop and actual game).</p>
-                    <a href="downloads/Defend It.rar"><p>Download here</p></a>
-                    <a href="https://github.com/vb00232/Defend-It"><p>Link to GitHub project here</p></a>
-                </div>
-                <div class="col-md-4">
-                    <img id="displayImg" src="resources/defendIt2.jpg" alt="Gameplay image">
-                </div>
+
+        <div id="defendIt" class="row colour2">          
+            <div class="col-md-8">                
+                <h3>Defend It</h3>
+                <p>A simple game developed in C# where you take control of a frog and battle against all the upcoming flies.</p>                
+                <p>Uses an object oriented approach and was one of the first projects that I started learning C# programming with.</p>
+                <p>Took a long time to create since I decided to write everything for the game including the game engine, the physics,
+                    and changing the game states(main menu, shop and actual game).</p>
+                <a href="downloads/Defend It.rar"><p>Download here</p></a>
+                <a href="https://github.com/vb00232/Defend-It"><p>Link to GitHub project here</p></a>
+            </div>
+            <div class="col-md-4">
+                <img id="displayImg" src="resources/defendIt2.jpg" alt="Gameplay image">
             </div>
         </div>
 
-        <div class="colour2">
-            <div id="cubezone" class="row">          
-                <div class="col-md-8">                
-                    <h3>Cubezone</h3>
-                    <p>A simple game developed in Unity where you try and reach the highest score by avoiding obstacles.</p>                
-                    <p>A very fun project that I decided to do, where I had the freedom to experiment with using Unity for game development.</p>
-                    <p>The game's concept is an endless runner, where you take control of a cube and have to dodge all the incoming obstacles.
-                        The longer you survive the higher your score gets! The game has some pretty cool sound effects and uses the in-built unity 
-                        physics for some realistic crashes.</p>
-                    <a href="downloads/Cubezone.rar" style="color:darkblue"><p>Download here</p></a>
-                </div>
-                <div class="col-md-4">
-                    <img id="displayImg" src="resources/cubezone.jpg" alt="Gameplay image">
-                </div>
+        <div id="cubezone" class="row colour1">          
+            <div class="col-md-8">                
+                <h3>Cubezone</h3>
+                <p>A simple game developed in Unity where you try and reach the highest score by avoiding obstacles.</p>                
+                <p>A very fun project that I decided to do, where I had the freedom to experiment with using Unity for game development.</p>
+                <p>The game's concept is an endless runner, where you take control of a cube and have to dodge all the incoming obstacles.
+                    The longer you survive the higher your score gets! The game has some pretty cool sound effects and uses the in-built unity 
+                    physics for some realistic crashes.</p>
+                <a href="downloads/Cubezone.rar" style="color:darkblue"><p>Download here</p></a>
+                <a href="https://github.com/vb00232/Cubezone" style="color:darkblue"><p>Link to GitHub project here</p></a>
             </div>
-        </div>        
-
-        <div class="colour1">
-            <div id="morseCode" class="row">          
-                <div class="col-md-8">                
-                    <h3>Morse Code encoder and decoder</h3>
-                    <p>A very interesting project developed while in first year in university with a group of students.</p>                
-                    <p>The purpose of the project was tu use an Arduino board to create a morse code encoder and decoder.</p>
-                    <p>First part of the project was creating a decoder that would take as input our button presses and interpret that as a morse code input, 
-                        translating it into a character and showing it onto a 7 segment led display.</p>
-                    <p> Second part of the project was the encoder, that would have a predefined string (ex: "Hello") and 
-                        translate each character into morse code, sending the data to the decoder. The arduino board had a LED light that would show each dot or 
-                        line in the morse code. Then the decoder would display it as above.</p>
-                    </div>
-                <div class="col-md-4">
-                    <img id="displayImg" src="resources/morseCode.gif" alt="Image of the arduino board in use">
-                </div>
+            <div class="col-md-4">
+                <img id="displayImg" src="resources/cubezone.jpg" alt="Gameplay image">
+            </div>
+        </div>   
+              
+        <div id="morseCode" class="row colour2">          
+            <div class="col-md-8">                
+                <h3>Morse Code encoder and decoder</h3>
+                <p>A very interesting project developed while in first year in university with a group of students.</p>                
+                <p>The purpose of the project was tu use an Arduino board to create a morse code encoder and decoder.</p>
+                <p>First part of the project was creating a decoder that would take as input our button presses and interpret that as a morse code input, 
+                    translating it into a character and showing it onto a 7 segment led display.</p>
+                <p> Second part of the project was the encoder, that would have a predefined string (ex: "Hello") and 
+                    translate each character into morse code, sending the data to the decoder. The arduino board had a LED light that would show each dot or 
+                    line in the morse code. Then the decoder would display it as above.</p>
+            </div>
+            <div class="col-md-4">
+                <img id="displayImg" src="resources/morseCode.gif" alt="Image of the arduino board in use">
             </div>
         </div>
 
-        <div class="footer">           
-
-            <div class = "row">
-                <div class="col-md-12">
-                    <p>Follow me:</p>                
-                    <a href="https://github.com/vb00232">
-                        <img id="Icon" src="resources/githubIcon.png" alt="Follow me on GitHub">
-                    </a>
-                    <a href="https://www.linkedin.com/in/vlad-badica-653b42180/">
-                        <img id="Icon" src="resources/linkedinIcon.png" alt="Follow me on LinkedIn">
-                    </a>
-                </div>   
-            </div>
+        <div class="footer row">           
+            <div class="col-md-12">
+                <p>Follow me:</p>                
+                <a href="https://github.com/vb00232">
+                    <img id="Icon" src="resources/githubIcon.png" alt="Follow me on GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/vlad-badica-653b42180/">
+                    <img id="Icon" src="resources/linkedinIcon.png" alt="Follow me on LinkedIn">
+                </a>
+            </div>     
         </div>
         
         <script src="js/scripts.js"></script>

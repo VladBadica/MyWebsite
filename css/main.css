@@ -30,12 +30,16 @@ p {
   font-size: 12px;
 }
 .colour1{    
-  text-align: center;
-  background: #282828;
+  background-color: #282828;
   color: white;
 }
-.colour2, .list-group-item{
-  background: #c5c6c7
+.colour2{
+  background-color: #c5c6c7;
+  color: black;
+}
+.colour3{
+  background-color: #007bff;
+  color: white;
 }
 .list-group.list-group-flush{
   font-size: 22px;
