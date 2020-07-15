@@ -39,7 +39,8 @@ p {
 }
 .colour3{
   background-color: #905923;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .list-group.list-group-flush{
   font-size: 22px;
@@ -62,7 +63,10 @@ p {
   max-width: 33%;
   padding: 0 4px;
 }
-  
+a.nav-link, a.navbar-brand{
+  color: inherit;
+  text-decoration: none;
+}
 .column img {
   margin-top: 8px;
   vertical-align: middle;
