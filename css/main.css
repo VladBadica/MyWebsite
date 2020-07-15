@@ -22,24 +22,24 @@ p {
 }
 .header, .footer{
   text-align: center;
-  background: #282828;
-  color: white;
   font-size: 40px;
 }
 .footer > p{
   font-size: 12px;
 }
 .colour1{    
-  background-color: #282828;
+  /*#282828*/
+  background-color: #2C2B30;
   color: white;
 }
 .colour2{
-  background-color: #c5c6c7;
+  /*#c5c6c7*/
+  background-color: #D6D6D6;
   color: black;
 }
-.colour3{
-  background-color: #007bff;
-  color: white;
+.navbar{
+  background-color: white;
+  color: black;
 }
 .list-group.list-group-flush{
   font-size: 22px;
@@ -49,7 +49,6 @@ p {
   margin-right: 0px;
   padding: 50px;
 }
-
 .rowImg {
   display: flex;
   flex-wrap: wrap;
@@ -62,21 +61,22 @@ p {
   max-width: 33%;
   padding: 0 4px;
 }
-  
+a.nav-link, a.navbar-brand{
+  color: inherit;
+  text-decoration: none;
+}
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
-  
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
-}
-  
+}  
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -84,7 +84,6 @@ p {
     max-width: 100%;
   }
 }
-
 #myBtn {
   display: none;
   position: fixed;
@@ -96,11 +95,9 @@ p {
   background: whitesmoke;
   cursor: pointer;
 }
-
 #myBtn:hover {
   background-color: #c5c6c7;
 }
-
 #Icon{
   vertical-align: top;
   display: inline;
@@ -111,4 +108,7 @@ p {
 }
 #noDecoration{
   text-decoration: none;
+}
+#noTopBorder{
+  padding-top: 0px;
 }

@@ -18,7 +18,7 @@
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="resources\upArrow.png"></button>
         
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary" >
+        <nav class="navbar navbar-expand-lg" >
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,15 +63,12 @@
             </div>
         </nav>
 
-        <div class="header">
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="display-6">Hey, I'm</h3>
-                </div>
-                <div class="col-md-12">
-                    <h1 class="display-3">Vlad Badica</h1>
-                </div>
+        <div class="header row colour1">
+            <div class="col-md-12">
+                <h3 class="display-6">Hey, I'm</h3>
+            </div>
+            <div class="col-md-12">
+                <h1 class="display-3">Vlad Badica</h1>
             </div>
         </div>
 
@@ -81,9 +78,9 @@
             </div>
         </div>
 
-        <div class="row colour2">
+        <div id="noTopBorder" class="row colour2">
             <div class="col-sm-4">
-                <div class="card text-center text-white bg-primary mb-3">                    
+                <div class="card text-center text-white colour1 mb-3">                    
                     <img src="resources/bronzeMedal.jpeg" class="card-img-top" alt="Diploma of the bronze medal" >
                     <div class="card-body">
                         <h3 class="card-title">Bronze Medalist</h3>
@@ -93,8 +90,9 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-sm-4">
-                <div class="card text-center text-white bg-primary mb-3">
+                <div class="card text-center text-white colour1 mb-3">
                     <img src="resources/firstAid.jpg" class="card-img-top" alt="University of Surrey's St Johns Unit" >
                     <div class="card-body">
                       <h3 class="card-title">First Aid & St John Amublance</h3>
@@ -105,7 +103,7 @@
             </div>
 
             <div class="col-sm-4">
-                <div class="card text-center text-white bg-primary mb-3">
+                <div class="card text-center text-white colour1 mb-3">
                     <img src="resources/snowboard.jpg" class="card-img-top" alt="Snowboarding" >
                     <div class="card-body">
                       <h3 class="card-title">Snowboarding</h3>
@@ -115,9 +113,9 @@
             </div>
         </div>
 
-        <div class="row colour2">
+        <div id="noTopBorder" class="row colour2">
             <div class="col-sm-4">
-                <div class="card text-center text-white bg-primary mb-3">                    
+                <div class="card text-center text-white colour1 mb-3">                    
                     <img src="resources/scuba.jpg" class="card-img-top" alt="Summer Scuba Diving" >
                     <div class="card-body">
                         <h3 class="card-title">Scuba Diving</h3>
@@ -176,8 +174,8 @@
                 <p>The game's concept is an endless runner, where you take control of a cube and have to dodge all the incoming obstacles.
                     The longer you survive the higher your score gets! The game has some pretty cool sound effects and uses the in-built unity 
                     physics for some realistic crashes.</p>
-                <a href="downloads/Cubezone.rar" style="color:darkblue"><p>Download here</p></a>
-                <a href="https://github.com/vb00232/Cubezone" style="color:darkblue"><p>Link to GitHub project here</p></a>
+                <a href="downloads/Cubezone.rar"><p>Download here</p></a>
+                <a href="https://github.com/vb00232/Cubezone"><p>Link to GitHub project here</p></a>
             </div>
             <div class="col-md-4">
                 <img id="displayImg" src="resources/cubezone.jpg" alt="Gameplay image">
@@ -200,7 +198,7 @@
             </div>
         </div>
 
-        <div class="footer row">           
+        <div class="footer row colour1">           
             <div class="col-md-12">
                 <p>Follow me:</p>                
                 <a id="noDecoration" href="https://github.com/vb00232">
