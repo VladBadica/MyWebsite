@@ -22,23 +22,22 @@ p {
 }
 .header, .footer{
   text-align: center;
-  background: #282828;
-  color: white;
   font-size: 40px;
 }
 .footer > p{
   font-size: 12px;
 }
 .colour1{    
-  background-color: #282828;
+  /*#282828*/
+  background-color: #2C2B30;
   color: white;
 }
 .colour2{
-  background-color: #c5c6c7;
+  /*#c5c6c7*/
+  background-color: #D6D6D6;
   color: black;
 }
-.colour3{
-  background-color: #905923;
+.navbar{
   background-color: white;
   color: black;
 }
@@ -50,7 +49,6 @@ p {
   margin-right: 0px;
   padding: 50px;
 }
-
 .rowImg {
   display: flex;
   flex-wrap: wrap;
@@ -78,8 +76,7 @@ a.nav-link, a.navbar-brand{
     flex: 50%;
     max-width: 50%;
   }
-}
-  
+}  
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -87,7 +84,6 @@ a.nav-link, a.navbar-brand{
     max-width: 100%;
   }
 }
-
 #myBtn {
   display: none;
   position: fixed;

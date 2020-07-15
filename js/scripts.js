@@ -1,7 +1,7 @@
 //Get the button
 var mybutton = document.getElementById("myBtn");
 // Defines how far the user has to scroll before he can see the scroll up button
-var triggerPoint = 960;
+var triggerPoint = 1080;
 
 // When the user scrolls down from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
