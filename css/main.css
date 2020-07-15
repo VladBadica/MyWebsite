@@ -72,7 +72,6 @@ a.nav-link, a.navbar-brand{
   vertical-align: middle;
   width: 100%;
 }
-  
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -100,11 +99,9 @@ a.nav-link, a.navbar-brand{
   background: whitesmoke;
   cursor: pointer;
 }
-
 #myBtn:hover {
   background-color: #c5c6c7;
 }
-
 #Icon{
   vertical-align: top;
   display: inline;
@@ -116,6 +113,6 @@ a.nav-link, a.navbar-brand{
 #noDecoration{
   text-decoration: none;
 }
-#aboutMe{
-  padding-bottom: 0px;
+#noTopBorder{
+  padding-top: 0px;
 }
