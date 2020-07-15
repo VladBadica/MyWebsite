@@ -38,7 +38,7 @@ p {
   color: black;
 }
 .colour3{
-  background-color: #007bff;
+  background-color: #905923;
   color: white;
 }
 .list-group.list-group-flush{
@@ -111,4 +111,7 @@ p {
 }
 #noDecoration{
   text-decoration: none;
+}
+#aboutMe{
+  padding-bottom: 0px;
 }
